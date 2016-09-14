@@ -121,7 +121,23 @@ body{
 }
 
 
+/*メインビジュアル
+------------------------*/
+.main_visual{
+  width:100%;
+  height:460px;
+  background: #eee;
+  position: relative;
+}
 
+.box{
+  width:360px;
+  height: 145px;
+  background: #fff;
+  position: absolute;
+  top:150px;
+  left:25%;
+}
 
 /*キーフレームテンプレ
 -------------------------*/
