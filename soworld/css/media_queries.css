@@ -1,0 +1,24 @@
+﻿@media screen and (max-width:920px){
+
+/*共通
+-----------*/
+body{
+	width:100%;
+	font-size:13px;
+}
+
+
+.width_inner{
+  width:100%;
+}
+
+img{
+	max-width:100%;
+	vertical-align: middle;
+}
+
+
+
+
+
+}

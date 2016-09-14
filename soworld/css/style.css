@@ -1,0 +1,149 @@
+﻿@charset "UTF-8";
+
+/*全体
+----------------------*/
+body{
+	font-family: "A-OTF 新ゴ Pro",A-OTF Shin Go Pro,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1.7;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	margin: 0;
+ 	padding: 0;
+ 	color: #000;
+    background: #f6f5f0;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+
+
+
+
+/*共通
+----------------------*/
+
+#wrap{
+  overflow: hidden;
+}
+
+
+/*firefoxハック*/
+/*@-moz-document url-prefix() {
+  #wrap {
+    padding-top: 68px;
+  }
+}
+*/
+
+
+
+
+.width_inner{
+  width:1175px;
+  margin:0 auto;
+}
+
+/*ヘッダー
+----------------------*/
+
+#header{
+ width:100%;
+ background: #fff;
+}
+
+.header_inner{
+  width:1175px;
+  height: 135px;
+  margin:0 auto;
+}
+
+
+.social_link{
+  float:right;
+}
+
+
+.social_link li{
+  width:43px;
+  height: 43px;
+  border-radius: 50%;
+  text-align: center;
+  float:left;
+}
+
+.social_link li:nth-child(1){
+  background:#00abf1;
+}
+
+
+.social_link li:nth-child(2){
+  background:#4661a6;
+  margin-left:10px;
+}
+
+/*ナビ
+--------------------*/
+
+.hamburger{
+    position: absolute;
+    top:8px;
+    right:3px;
+    z-index: 10;
+    outline: none;
+}
+
+
+
+
+/*キーフレームテンプレ
+-------------------------*/
+
+.bg-gradation1 {
+  width:100%;
+  height:56px;
+  color:#FFF;
+  -webkit-animation: bg-gradation-one 10s ease-in 0.1s infinite alternate;
+  animation: bg-gradation-one 10s ease-in 0.1s infinite alternate;
+}
+
+
+
+
+/*カラーグラデーショーン　bg-gradation1*/
+@keyframes bg-gradation-one {
+  0% {background-color:#cde9e3;}
+  20% {background-color:#cde9e3;}
+  40% {background-color:#73f1d8;}
+  60% {background-color:#1aeac0;} 
+  80% {background-color:#1bcba7;} 
+  100% {background-color:#30b197;} 
+  /*100% {background-color:#060eb3;} */
+}
+
+
+
+
+
+
+/* クリアフィクス指定
+-----------------------------------------*/
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+
+
+
+
+
+  
