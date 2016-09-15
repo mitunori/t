@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/material.css"> <!-- material専用 -->
 	<link href="css/media_queries.css" rel="stylesheet" type="text/css">
 	<link href="css/hamburgers.css" rel="stylesheet">
+	.<link href="css/slick.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -55,35 +56,69 @@
   <!-- end.menu_box -->
 
 
- <section class="outer_left_box">
- 	<div class="catch_image_left">aaaaaa</div>
+ <section class="outer_box clearfix">
+	 <div class="left_outer_box clearfix">
+			<div class="slider-for">
+			  <div><img src="img/top/1.jpg"></div>
+			  <div><img src="img/top/1.jpg"></div>
+			  <div><img src="img/top/1.jpg"></div>
+			  <div><img src="img/top/1.jpg"></div>
+			</div>
+			<!-- thumbnail_lage-->
+	</div>
+	<!-- end.left_outer_box -->
 
- </section>
-
+	<div class="text_outer_box clearfix">
+	    <div class="text_inner_box">
+		    <h3 class="common_h3">カテゴリー名予定</h3>
+		    <p class="text">カテゴリーの紹介の文章</p>
+	    </div>
+	    <!-- text_inner_box -->
+			<div class="slider-nav">
+			  <div><img src="img/top/1.jpg"></div>
+			  <div><img src="img/top/1.jpg"></div>
+			  <div><img src="img/top/1.jpg"></div>
+			  <div><img src="img/top/1.jpg"></div>
+			</div>
+			<!-- thumbnail_small-->
+	</div>
+	<!-- end.text_outer_box -->
 
 	<section class="cd-section">
-		<p>aa</p>
 		<div class="cd-modal-action">
-			<a href="#0" class="btn" data-type="modal-trigger">ボタンの文字</a>
+			<a href="#0" class="btn one" data-type="modal-trigger">btn</a>
 			<span class="cd-modal-bg"></span>
 		</div> <!-- cd-modal-action -->
 
 		<div class="cd-modal">
 			<div class="cd-modal-content">
-				<p>bbbbbb</p>
-				<p>aaaaa</p>
-
-				<p>aaaaaa</p>
+				<p>写真＋簡単な紹介実装予定<br>現在写真の素材がないので手配中</p>
 			</div> <!-- cd-modal-content -->
 		</div> <!-- cd-modal -->
 		<a href="#0" class="cd-modal-close">Close</a>
 	</section>
 	<!-- end.matelrial-->
+
+ </section>
+ <!-- end.outer_box -->
+
+
+
+
 </div>
 <!-- end#wrapper -->
+<div id="loading">
+	<span id="line_1"></span>
+	<span id="line_2"></span>
+	<span id="line_3"></span>
+	<span id="line_4"></span>
+</div>
+
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/velocity.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/common.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/modernizr.js"></script>
 <!-- ブラウザ対応cssライブラリ-->
 </body>

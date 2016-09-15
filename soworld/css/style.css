@@ -311,18 +311,90 @@ body{
 
 /*コンテンツ
 ------------------*/
-.catch_image{
-  width:585px;
+.outer_box{
+  width:1175px;
+  margin:25px auto;
+  position: relative;
+}
+
+.left_outer_box{
+   width:587.5px;
+   height: 365px;
+   float:left;
+}
+
+.text_outer_box{
+  width:578.5px;
   height: 365px;
+  float:left;
+}
+
+.text_inner_box{
+  width:578.5px;
+  height: 300px;
+  background: #fff;
+}
+
+
+/*スライダー　large調整*/
+.slider-for img{
+  width:587.5px;
+  height: 365px;
+}
+
+/*スライダー　small調整*/
+.slider-nav img{
+  width:117.5px;
+  height: 65px;
+}
+
+.slick-list{
+  margin:0 !important;
+}
+
+
+/*slickボタン非表示処理*/
+.slick-prev{
+  display: none !important;
+}
+.slick-next{
+  display: none !important;
+}
+
+.slick-slider li button{
+  display: none !important;
 }
 
 
 
+/*materialmotion*/
+
+/*outer_efect 非表示*/
+.cd-section{
+  margin:0 !important;
+  padding:0 !important;
+  background: none !important;
+}
+
+.cd-modal-action{
+  position: absolute !important;
+  top:50%;
+  bottom:0;
+  left: 0;
+  right: 0;
+  height: 0;
+}
 
 
+.cd-modal-action .btn{
+  width:58px !important;
+  height: 58px !important;
+  border-radius: 50% !important;
+}
 
-
-
+.cd-modal-action .one{
+  background: #ff646c !important;
+}
 
 
 /*キーフレームテンプレ
@@ -351,6 +423,63 @@ body{
   /*100% {background-color:#060eb3;} */
 }
 
+
+
+
+/*ローディングアニメーション*/
+
+#line_1{
+    z-index: 11;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #ff646c;
+    position: fixed;
+    -webkit-transition: all .3s cubic-bezier(.4,0,.2,1);
+    transition: all .3s cubic-bezier(.4,0,.2,1);
+}
+
+#line_2{
+    z-index: 12;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+    background: #ffcd1f;
+    position: fixed;
+    -webkit-transition: all .3s cubic-bezier(.4,0,.2,1);
+    transition: all .3s cubic-bezier(.4,0,.2,1);
+}
+
+#line_3{
+    z-index: 11;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+    background: #56cc8e;
+    position: fixed;
+    -webkit-transition: all .3s cubic-bezier(.4,0,.2,1);
+    transition: all .3s cubic-bezier(.4,0,.2,1);
+}
+
+#line_4{
+    z-index: 12;
+    bottom: 0;
+    width:10px;
+    height:100%;
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
+    background: #65ace4;
+    position: fixed;
+    -webkit-transition: all .3s cubic-bezier(.4,0,.2,1);
+    transition: all .3s cubic-bezier(.4,0,.2,1);
+}
 
 
 
