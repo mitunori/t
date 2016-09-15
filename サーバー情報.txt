@@ -1,0 +1,47 @@
+サーバ　申込み方法
+http://www.sakura.ad.jp/resource/pdf/applicationguide_server.pdf
+【サーバ用　クーポンコード】
+1hpq-t012-bEG0-k0wk
+
+
+JPドメイン　申込み方法
+http://www.sakura.ad.jp/resource/pdf/applicationguide_domain.pdf
+【ドメイン用　クーポンコード】
+BJqe-vNa2-JQ0C-sSCs
+
+
+
+
+
+会員ID
+crd57654
+
+PASS　　Jdeagi6d1
+※PASSはドメイン・サーバともに共通です
+
+
+《 ご契約者の情報 》
+
+     会員ID          ： crd57654
+     ご契約者名      ： 森田 光騎 様
+     電子メール      ： mitukun32@gmail.com
+
+《 ご契約サービスの情報 》
+
+     サービス名      ： さくらのレンタルサーバ スタンダード
+     サービスコード  ： 112800946516
+     お申込み日      ： 2016年09月15日
+     お試し期間      ： 2016年09月29日まで
+
+     初期ドメイン    ： so-world.sakura.ne.jp
+     ホームページ    ： http://so-world.sakura.ne.jp
+
+《 契約サービスの接続情報 》
+
+     FTPサーバ名     ： so-world.sakura.ne.jp
+     FTPアカウント   ： so-world
+     FTP初期フォルダ ： www
+     サーバパスワード： hyvx2b2m7s
+
+     POP3(受信)サーバ： so-world.sakura.ne.jp
+     SMTP(送信)サーバ： so-world.sakura.ne.jp
