@@ -313,7 +313,7 @@ body{
 ------------------*/
 .outer_box{
   width:1175px;
-  margin:25px auto;
+  margin:50px auto;
   position: relative;
 }
 
@@ -321,6 +321,12 @@ body{
    width:587.5px;
    height: 365px;
    float:left;
+}
+
+.right_outer_box{
+   width:587.5px;
+   height: 365px;
+   float:right;
 }
 
 .text_outer_box{
@@ -397,6 +403,20 @@ body{
 }
 
 
+.cd-modal-action .two{
+  background: #ffcd1f !important;
+}
+
+
+.cd-modal-action .three{
+  background: #56cc8e !important;
+}
+
+
+.cd-modal-action .four{
+  background: #65ace4 !important;
+}
+
 /*キーフレームテンプレ
 -------------------------*/
 
@@ -425,6 +445,29 @@ body{
 
 
 
+/*フッター
+-------------------*/
+
+#footer{
+  background: #343434;
+}
+
+.footer_inner{
+  height: 145px;
+  width:1175px;
+  margin:0 auto;
+}
+
+.copy_right{
+  text-align: center;
+  color:#fff;
+  font-size:;
+  height: 45px;
+  padding-top:8px;
+  background: #2c2c2c;
+  font-size:10px;
+  font-size:0.625rem;
+}
 
 /*ローディングアニメーション*/
 
