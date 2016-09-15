@@ -116,7 +116,7 @@ body{
     top: -6px;
     left: -6px;
     bottom: 0;
-    border: 1px solid #f00;
+    border: 1px solid #00abf1;
     -webkit-animation: icon_move_second 0.5s ease-in 0.6s infinite alternate;
     animation: icon_move_second 0.5s ease-in 0.6s infinite alternate;
 }
@@ -126,6 +126,23 @@ body{
   margin-left:10px;
   position: relative;
 }
+
+
+.social_link li:nth-child(2):after{
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+    width: 53px;
+    height: 53px;
+    margin: 0 auto;
+    top: -6px;
+    left: -6px;
+    bottom: 0;
+    border: 1px solid #4661a6;
+    -webkit-animation: icon_move_second 0.5s ease-in 0.6s infinite alternate;
+    animation: icon_move_second 0.5s ease-in 0.6s infinite alternate;
+}
+
 
 
 
@@ -174,6 +191,43 @@ body{
 }
 
 
+.menu_box{
+  width:1175px;
+  margin:0 auto;
+}
+
+.menu_link li{
+  float:left;
+  width:293px;
+  height: 100px;
+  text-align: center;
+  background: #fff;
+  line-height: 100px;
+}
+
+
+
+.menu_link li:nth-child(1){
+  border-top:4px solid #ff646c;
+}
+
+.menu_link li:nth-child(2){
+  border-top:4px solid #ffcd1f;
+}
+
+
+
+.menu_link li:nth-child(3){
+  border-top:4px solid #56cc8e;
+}
+
+
+
+.menu_link li:nth-child(4){
+  border-top:4px solid #65ace4;
+}
+
+
 /*メインビジュアル
 ------------------------*/
 .main_visual{
@@ -192,16 +246,29 @@ body{
   left:25%;
 }
 
-
-.screen_layer{
-  position: absolute;
-  top:46px;
-  right: 305px;
-  overflow: hidden;
-  width:190px;
-  height: 424px;
+/*内側切り抜きに合わせてスマートフォン設置*/
+.smart_tel_icon_layer{
+      background: url(../img/top/p_smartphone_small.png) no-repeat center center;
+      width:286px;
+      height: 393px;
+      position: absolute;
+      z-index: 1;
+      bottom:-5px;
+      right: 257px;
 }
 
+/*切り抜き用*/
+.screen_layer{
+    position: absolute;
+    bottom: 0;
+    right: 305px;
+    overflow: hidden;
+    width: 190px;
+    height: 375px;
+
+}
+
+/*画面内部側*/
 .inner_layer_clip{
   width:190px;
   height: 424px;
@@ -224,7 +291,7 @@ body{
  100% {background-position: -500px 0;}
 }
 
-
+/*外側アニメーション*/
 .outer_layer_clip{
    top:0;
     left: 0;
@@ -234,10 +301,28 @@ body{
     background-attachment: fixed;
     background-position: 0 0;
     position: absolute;
-    opacity: .15;
+    opacity: .1;
     -webkit-animation: bgscroll 25s linear infinite;
     animation: bgscroll 25s linear infinite;
 }
+
+
+
+
+/*コンテンツ
+------------------*/
+.catch_image{
+  width:585px;
+  height: 365px;
+}
+
+
+
+
+
+
+
+
 
 
 /*キーフレームテンプレ
