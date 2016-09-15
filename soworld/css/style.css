@@ -178,6 +178,13 @@ body{
 }
 
 
+.tw_icon{
+  color: #fff;
+}
+
+.fb_icon{
+  color: #fff;
+}
 
 /*ナビ
 --------------------*/
@@ -246,6 +253,90 @@ body{
   left:25%;
 }
 
+.anchor_link{
+  position: relative;
+  display: block;
+  width:43px;
+  height:43px;
+  border-radius: 50%;
+  margin:0 auto;
+  background: #666;
+  position: absolute;
+  bottom:-20px;
+  left:0;
+  right: 0;
+  transition:0.5s;
+}
+
+
+.anchor_link:after{
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+    width: 53px;
+    height: 53px;
+    margin: 0 auto;
+    top: -6px;
+    left: -6px;
+    bottom: 0;
+    border: 1px solid #666;
+    transition:0.5s;
+    -webkit-transform: scale(0.7);
+       -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+         -o-transform: scale(0.7);
+            transform: scale(0.7);
+}
+.anchor_link:hover:after{
+      -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+}
+
+
+
+.arrow_bottom{
+    color: #fff;
+    display: block !important;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+/*登録*/
+.box h2{
+  text-align: center;
+  margin:20px auto;
+}
+
+.new_member_link li{
+  float:left;
+  width:170px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.new_member_link li a{
+  display: block;
+  color:#fff;
+}
+
+
+.new_member_link li:nth-child(1){
+  background: #56cc8e;
+}
+
+.new_member_link li:nth-child(2){
+  background: #ff646c;
+}
+
+
 /*内側切り抜きに合わせてスマートフォン設置*/
 .smart_tel_icon_layer{
       background: url(../img/top/p_smartphone_small.png) no-repeat center center;
@@ -313,7 +404,7 @@ body{
 ------------------*/
 .outer_box{
   width:1175px;
-  margin:50px auto;
+  margin:100px auto;
   position: relative;
 }
 
@@ -339,6 +430,7 @@ body{
   width:578.5px;
   height: 300px;
   background: #fff;
+  text-align: center;
 }
 
 
@@ -350,7 +442,7 @@ body{
 
 /*スライダー　small調整*/
 .slider-nav img{
-  width:117.5px;
+  width:125px;
   height: 65px;
 }
 
